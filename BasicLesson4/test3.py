@@ -1,6 +1,10 @@
 import cv2
 import drawUtils
 import time
+import os
+
+CWD = os.path.dirname(os.path.abspath(__file__))
+os.chdir(CWD)
 
 start_time = time.time()
 
